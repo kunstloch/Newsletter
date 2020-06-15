@@ -1,0 +1,8 @@
+{
+  "name": "Newsletter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kunstloch/Newsletter.git",
+  "author": "Alexander Scherer <alexscherer@outlook.com>",
+  "license": "MIT"
+}
