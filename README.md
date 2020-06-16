@@ -67,5 +67,5 @@ So add `.env` files in your `.gitignore` file. (I faked all the numbers in this 
 ### browser
 
 
-Newsletter signup can be find at [localhost:3000/](http://localhost:3000/) in your browser. 
+Newsletter signup can be find now here [localhost:3000/](http://localhost:3000/) in your browser. 
 
