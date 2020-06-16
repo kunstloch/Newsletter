@@ -42,7 +42,7 @@ In your _**API key**_ you can find the e.g. _**US8**_ `US_SERVER` information. I
 Use it also in your `.env` file. 
 
 
-Additionally you need a `USER` in your `.env` file. This can be any string you want to use.
+Additionally you need a _**user**_ `USER` in your `.env` file. This can be any string you want to use.
 
 
 So your `.env` file should look like this:
