@@ -4,12 +4,16 @@ Using Mailchimp API for Newsletter-Signup
 
 ## Starting
 
+
+
 ### clone from github:
+
 
 `$ git clone https://github.com/kunstloch/newsletter.git`
 
 
 ### create Mailchimp account
+
 
 Find more information here: 
 [Get Started with the Mailchimp API](https://mailchimp.com/developer/)
@@ -17,11 +21,13 @@ Find more information here:
 
 ### install:
 
+
 `$ cd newsletter`
 `$ yarn add` or `$ npm install`
 
 
 ### add your Mailchimp authorisation credentials
+
 
 Create `.env` file.
 
@@ -49,10 +55,12 @@ So add `.env` files in your `.gitignore` file. (I faked all the numbers in this 
 
 ### run
 
+
 `$ nodemon app.js`
 
 
 ### browser
+
 
 Newsletter signup can be find at [localhost:3000/](http://localhost:3000/) in your browser. 
 
