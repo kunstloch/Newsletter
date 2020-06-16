@@ -58,9 +58,10 @@ app.post('/', (req, res) => {
   const listId = process.env.LIST_ID;
   const apiKey = process.env.API_KEY;
   const user = process.env.USER;
-  const auth = process.env.AUTH;
+  const auth = user + ":" + apiKey;
+  const usServer = process.env.US_SERVER;
+  const url = 'https://' + usServer + '.api.mailchimp.com/3.0/lists/' + listId;
 
-  const url = 'https://us10.api.mailchimp.com/3.0/lists/' + listId;
   const options = {
     method: "POST",
     auth: auth
