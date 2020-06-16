@@ -32,11 +32,11 @@ Find more information here:
 
 Create `.env` file.
 
-You need your to add *unique id* for audience `LIST_ID`(find at: Audience -> Settings) in the `.env` file.
+You need your to add _**unique id_** for audience `LIST_ID`(find at: Audience -> Settings) in the `.env` file.
 
-Add also your *API key* (find at: Account ->  Extras -> API keys). Use in your `.env` file as `API_KEY`
+Add also your _**API key_** (find at: Account ->  Extras -> API keys). Use in your `.env` file as `API_KEY`
 
-In your *API ke*y you can find the e.g. *US8* `US_SERVER` information. It is the last part after the hypen. It lokks like this: `US` and a number from 1 to 20. 
+In your _**API key_** you can find the e.g. _**US8**_ `US_SERVER` information. It is the last part after the hypen. It looks like this: `US` and a number from 1 to 20. 
 
 
 Use it also in your `.env` file. 
