@@ -23,7 +23,8 @@ Find more information here:
 
 
 `$ cd newsletter`
-`$ yarn add` or `$ npm install`
+
+`$ yarn add`  or  `$ npm install`
 
 
 ### add your Mailchimp authorisation credentials
@@ -31,16 +32,20 @@ Find more information here:
 
 Create `.env` file.
 
-You need your to add unique id for audience `LIST_ID`(find at: Audience -> Settings) in the `.env` file.
+You need your to add *unique id* for audience `LIST_ID`(find at: Audience -> Settings) in the `.env` file.
 
-Add also your API key (find at: Account ->  Extras -> API keys). Use in your `.env` file as `API_KEY`
+Add also your *API key* (find at: Account ->  Extras -> API keys). Use in your `.env` file as `API_KEY`
 
-In your API key you can find the `US_SERVER` information. It is the last part after the hypen. It lokks like this: `US` and a number from 1 to 20. 
+In your *API ke*y you can find the e.g. *US8* `US_SERVER` information. It is the last part after the hypen. It lokks like this: `US` and a number from 1 to 20. 
+
+
 Use it also in your `.env` file. 
 
-Additionally you need a `USER` in your `.env` file. This can be any string your want.
 
-So your `.env` file should have all these info:
+Additionally you need a `USER` in your `.env` file. This can be any string you want to use.
+
+
+So your `.env` file should look like this:
 
 ```
 API_KEY=13ab63i813ee14433geacc73748aae5a-us9
