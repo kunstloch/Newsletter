@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Success</title>
+  <title>Failure</title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
@@ -16,8 +16,13 @@
   
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Subscription successful!</h1>
-      <p class="lead">Thank you for subscribing to my newsletter.</p>
+      <h1 class="display-4">Subscription Failed</h1>
+      <p class="lead">Subscription did not work as expected. Please try once again or contact me directly!</p>
+
+      <form action="/failure" method="post">
+        <button class="btn btn-secondary btn-lg" type="submit" name="button">Try Again</button>
+      </form>
+
     </div>
   </div>
 
