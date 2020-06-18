@@ -1,4 +1,5 @@
-'use strict';
+// 'use strict'
+
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -86,7 +87,7 @@ app.post('/', (req, res) => {
 
 }); 
 
-app.post()
+// app.post()
 
 
 
