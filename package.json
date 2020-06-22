@@ -1,18 +1,8 @@
 {
-  "name": "newsletter",
+  "name": "Newsletter",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/kunstloch/Newsletter.git",
   "author": "Alexander Scherer <alexscherer@outlook.com>",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "nodemon": "^2.0.4",
-    "serve-favicon": "^2.5.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.2.0",
-    "express": "*",
-    "body-parser": "*"
-  }
+  "license": "MIT"
 }
