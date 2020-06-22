@@ -4,5 +4,9 @@
   "main": "app.js",
   "repository": "https://github.com/kunstloch/Newsletter.git",
   "author": "Alexander Scherer <alexscherer@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "serve-favicon": "^2.5.0"
+  }
 }
